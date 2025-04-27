@@ -2,13 +2,24 @@
 
 ---
 
+## 📅 Project Details
+
+- **Student Name**: [Your Name Here]
+- **Student ID**: [Your Student ID Here]
+- **Lecturer**: Eric Maniraguha
+- **Course Code & Name**: INSY 8311 - Database Development with PL/SQL
+- **Academic Year**: 2024-2025
+- **Submission Date**: April 27, 2025
+
+---
+
 ## 🌐 Introduction
 
 In modern universities and colleges, efficiently tracking student attendance and performance is crucial for maintaining academic excellence. Manual systems are prone to errors, data loss, and inefficiency. This project presents a comprehensive Oracle PL/SQL database solution designed to automate and streamline attendance and performance management. It incorporates tables, procedures, functions, triggers, cursors, packages, and audit logging to ensure high data integrity, reliability, and security.
 
 ---
 
-## 🏋️ Problem Statement
+## 💪 Problem Statement
 
 Educational institutions often struggle with:
 - Inaccurate manual attendance records
