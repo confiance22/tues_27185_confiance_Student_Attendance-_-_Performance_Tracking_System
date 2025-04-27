@@ -154,7 +154,7 @@ This project is submitted as part of the Capstone Project for Database Developme
 
 ---
 
-> "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters." — Colossians 3:23 (NIV)
+> "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters." — Colossians 3:23
 
 ---
 
