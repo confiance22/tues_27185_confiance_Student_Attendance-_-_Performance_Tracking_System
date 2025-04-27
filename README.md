@@ -123,7 +123,6 @@ Sample insertions were created using real-world use cases and Rwandan context.
 - Oracle Database 21c
 - SQL Developer
 - Database Modeler
-- Lucidchart/Draw.io for ERD
 - GitHub for version control
 
 ---
