@@ -80,9 +80,6 @@ This project addresses these challenges by providing an automated, secure, and a
 - Primary Keys, Foreign Keys
 - NOT NULL, UNIQUE, CHECK constraints
 
-### 📚 Normalization
-- Achieved up to 3rd Normal Form (3NF)
-
 ---
 
 ## 🔢 SQL Components
@@ -102,9 +99,6 @@ This project addresses these challenges by providing an automated, secure, and a
 ### 🚧 Triggers
 - Block any DML operations during weekdays or public holidays
 - Log user actions to an audit table
-
-### 🔔 Auditing
-- Audit_Log captures every INSERT, UPDATE, DELETE with timestamp and user details
 
 ---
 
@@ -142,7 +136,7 @@ Sample insertions were created using real-world use cases and Rwandan context.
 - Phase IV: Database Creation ✔️
 - Phase V: Data Insertion and Validation ✔️
 - Phase VI: Procedures, Functions, Triggers, Packages ✔️
-- Phase VII: Advanced Programming & Auditing ✔️
+- Phase VII: Advanced Programming ✔️
 - Phase VIII: Final Documentation & Presentation ✔️
 
 ---
