@@ -1,4 +1,4 @@
-# 📚 README: Student Attendance and Performance Tracking System
+# 📚 Student Attendance and Performance Tracking System
 
 ---
 
