@@ -9,7 +9,6 @@
 - **Lecturer**: Eric Maniraguha
 - **Course Code & Name**: INSY 8311 - Database Development with PL/SQL
 - **Academic Year**: 2024-2025
-- **Submission Date**: April 27, 2025
 
 ---
 
