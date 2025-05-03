@@ -136,7 +136,7 @@ Sample insertions were created using real-world use cases and Rwandan context.
 - Phase IV: Database Creation ✔️
 - Phase V: Data Insertion and Validation ✔️
 - Phase VI: Procedures, Functions, Triggers, Packages ✔️
-- Phase VII: Advanced Programming ✔️
+- Phase VII: Advanced Programming & Auditing ✔️
 - Phase VIII: Final Documentation & Presentation ✔️
 
 ---
