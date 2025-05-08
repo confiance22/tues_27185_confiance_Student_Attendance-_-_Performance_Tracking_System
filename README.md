@@ -161,8 +161,6 @@ All were tested with at least 5 valid inputs.
 - Security was improved using auditing triggers and logic. A dedicated Audit_Log table tracks user actions on sensitive tables. A separate Public_Holidays table is used by a trigger to prevent DML operations during holidays. This ensures regulatory and organizational compliance.
   
 - Phase VIII: Final Documentation & Presentation ✔️
-- full README, ERD, data model, SQL scripts, test cases, and a PowerPoint presentation were created. All content was organized for GitHub submission. Presentation slides cover problem, solution, and outcomes clearly with visuals and explanation.
-  
 - [tue_27185_confiance_plsql2.pptx](https://github.com/user-attachments/files/20105090/tue_27185_confiance_plsql2.pptx)
 
 ---
