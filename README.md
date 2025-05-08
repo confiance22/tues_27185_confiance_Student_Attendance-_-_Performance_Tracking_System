@@ -4,7 +4,7 @@
 
 ## 📅 Project Details
 
-- **Student Name**: Confiance UTITAMAHORO
+- **Student Name**: Confiance UFITAMAHORO
 - **Student ID**: 27185
 - **Lecturer**: Eric Maniraguha
 - **Course Code & Name**: INSY 8311 - Database Development with PL/SQL
