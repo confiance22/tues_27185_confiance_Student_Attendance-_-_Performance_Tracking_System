@@ -1,5 +1,6 @@
 
 -- packages.sql
+
 CREATE OR REPLACE PACKAGE StudentManagement AS
     PROCEDURE MarkAttendance(p_student_id NUMBER, p_course_code VARCHAR2, p_date DATE, p_status VARCHAR2);
     FUNCTION GetStudentGrade(p_student_id NUMBER, p_course_code VARCHAR2) RETURN CHAR;
@@ -15,6 +16,7 @@ CREATE OR REPLACE PACKAGE BODY StudentManagement AS
         WHEN OTHERS THEN
             DBMS_OUTPUT.PUT_LINE('Error in MarkAttendance: ' || SQLERRM);
     END;
+
 
     FUNCTION GetStudentGrade(p_student_id NUMBER, p_course_code VARCHAR2) RETURN CHAR IS
         v_grade CHAR(2);
