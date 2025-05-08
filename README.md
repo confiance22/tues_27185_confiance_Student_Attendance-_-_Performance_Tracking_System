@@ -131,16 +131,17 @@ Sample insertions were created using real-world use cases and Rwandan context.
 ## 📅 Timeline
 
 - Phase I: Problem Definition ✔️
-The system identifies a core issue in academic institutions: unreliable and inefficient tracking of student attendance and performance. It defines clear objectives for building a PL/SQL-based system that ensures automation, accuracy, and transparency in handling student academic data.
+- The system identifies a core issue in academic institutions: unreliable and inefficient tracking of student attendance and performance. It defines clear objectives for building a PL/SQL-based system that ensures automation, accuracy, and transparency in handling student academic data.
 
 - Phase II: Business Process Modeling ✔️
-A detailed business process was designed to show how attendance and grading flow through the institution. Swimlane diagrams and BPMN modeling were used to represent how students, instructors, and administrators interact through the system, highlighting decision points and data flow.
+- A detailed business process was designed to show how attendance and grading flow through the institution. Swimlane diagrams and BPMN modeling were used to represent how students, instructors, and administrators interact through the system, highlighting decision points and data flow.
 
 - Phase III: Logical Design ✔️
-Entity-Relationship Diagrams (ERDs) were created to define all entities and their relationships. Primary keys, foreign keys, and normalization (up to 3NF) were applied to remove redundancy. Data types and constraints were applied as per business rules.
-  
+- Entity-Relationship Diagrams (ERDs) were created to define all entities and their relationships. Primary keys, foreign keys, and normalization (up to 3NF) were applied to remove redundancy. Data types and constraints were applied as per business rules.
+  ![ERD 1](https://github.com/user-attachments/assets/a756e812-8d81-47f8-beec-bb185f688e12)
+
 - Phase IV: Database Creation ✔️
-Tables were physically created in Oracle using SQL DDL scripts. Sequences were defined for ID generation. Indexes and integrity constraints were enforced to ensure consistent and valid data entry.
+- Tables were physically created in Oracle using SQL DDL scripts. Sequences were defined for ID generation. Indexes and integrity constraints were enforced to ensure consistent and valid data entry.
 
 - Phase V: Data Insertion and Validation ✔️
 Sample records with realistic Rwandan student and instructor names were inserted. Test data respected all constraints. Data was validated for consistency, and foreign key relationships were properly tested using both attendance and grades records.
@@ -154,11 +155,13 @@ Packages: To group logic in a modular way for better reuse.
 Triggers: To block attendance changes on weekdays or public holidays.
 All were tested with at least 5 valid inputs.
   
-- Phase VII: Advanced Programming & Auditing ✔️
-Security was improved using auditing triggers and logic. A dedicated Audit_Log table tracks user actions on sensitive tables. A separate Public_Holidays table is used by a trigger to prevent DML operations during holidays. This ensures regulatory and organizational compliance.
+- Phase VII: Programming & Auditing ✔️
+- Security was improved using auditing triggers and logic. A dedicated Audit_Log table tracks user actions on sensitive tables. A separate Public_Holidays table is used by a trigger to prevent DML operations during holidays. This ensures regulatory and organizational compliance.
   
 - Phase VIII: Final Documentation & Presentation ✔️
-full README, ERD, data model, SQL scripts, test cases, and a PowerPoint presentation were created. All content was organized for GitHub submission. Presentation slides cover problem, solution, and outcomes clearly with visuals and explanation.
+- full README, ERD, data model, SQL scripts, test cases, and a PowerPoint presentation were created. All content was organized for GitHub submission. Presentation slides cover problem, solution, and outcomes clearly with visuals and explanation.
+  
+- [tue_27185_confiance_plsql2.pptx](https://github.com/user-attachments/files/20105090/tue_27185_confiance_plsql2.pptx)
 
 ---
 
