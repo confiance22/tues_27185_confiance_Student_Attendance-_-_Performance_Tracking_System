@@ -1,4 +1,5 @@
 
+
 -- procedures.sql
 CREATE OR REPLACE PROCEDURE InsertAttendance (
     p_student_id IN NUMBER,
