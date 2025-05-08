@@ -147,15 +147,10 @@ Sample records with realistic Rwandan student and instructor names were inserted
   
 - Phase VI: Procedures, Functions, Triggers, Packages ✔️
 Custom PL/SQL components were developed:
-
 Procedures: For automated data entry like attendance marking.
-
 Functions: For analytics like calculating a student’s average score.
-
 Cursors: For displaying lists of students per course.
-
 Packages: To group logic in a modular way for better reuse.
-
 Triggers: To block attendance changes on weekdays or public holidays.
 All were tested with at least 5 valid inputs.
   
