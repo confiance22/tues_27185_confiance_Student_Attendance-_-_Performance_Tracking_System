@@ -138,14 +138,16 @@ Sample insertions were created using real-world use cases and Rwandan context.
 
 - Phase III: Logical Design ✔️
 - Entity-Relationship Diagrams (ERDs) were created to define all entities and their relationships. Primary keys, foreign keys, and normalization (up to 3NF) were applied to remove redundancy. Data types and constraints were applied as per business rules.
-  ![ERD 1](https://github.com/user-attachments/assets/a756e812-8d81-47f8-beec-bb185f688e12)
+ ![ERD 1](https://github.com/user-attachments/assets/a756e812-8d81-47f8-beec-bb185f688e12)
 
 - Phase IV: Database Creation ✔️
 - Tables were physically created in Oracle using SQL DDL scripts. Sequences were defined for ID generation. Indexes and integrity constraints were enforced to ensure consistent and valid data entry.
+![CREATING TABLE ATTENDANCE](https://github.com/user-attachments/assets/8201cf9e-fc15-473b-976b-ceb44e59ff7d)
 
 - Phase V: Data Insertion and Validation ✔️
 Sample records with realistic Rwandan student and instructor names were inserted. Test data respected all constraints. Data was validated for consistency, and foreign key relationships were properly tested using both attendance and grades records.
-  
+![INSERT INTO INSTRUCTORS](https://github.com/user-attachments/assets/279417d8-37c7-423f-bc45-fb54d69c0ace)
+
 - Phase VI: Procedures, Functions, Triggers, Packages ✔️
 Custom PL/SQL components were developed:
 Procedures: For automated data entry like attendance marking.
