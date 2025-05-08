@@ -29,3 +29,20 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Grade: ' || v_grade);
 END;
 /
+
+-- TEST: Perform 2 UPDATE operations to be recorded in audit_log
+
+BEGIN
+    -- Update attendance record status for Attendance_ID = 1
+    UPDATE Attendance
+    SET Status = 'Absent'
+    WHERE Attendance_ID = 1;
+
+    -- Update attendance record status for Attendance_ID = 2
+    UPDATE Attendance
+    SET Status = 'Present'
+    WHERE Attendance_ID = 2;
+    
+    COMMIT;
+END;
+/
