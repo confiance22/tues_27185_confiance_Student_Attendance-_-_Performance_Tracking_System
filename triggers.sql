@@ -1,5 +1,5 @@
 
------ triggers.sql ------
+-- triggers.sql
 CREATE OR REPLACE TRIGGER Block_Weekday_And_Holiday_Changes
 BEFORE INSERT OR UPDATE OR DELETE ON Attendance
 FOR EACH ROW
