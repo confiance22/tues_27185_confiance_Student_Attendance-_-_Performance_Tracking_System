@@ -107,7 +107,6 @@ This project addresses these challenges by providing an automated, secure, and a
 - Students: Mugisha Eric, Uwase Divine, Niyonsaba Claude
 - Instructors: Ndahiro Jean, Umutoni Grace
 
-Sample insertions were created using real-world use cases and Rwandan context.
 
 ---
 
