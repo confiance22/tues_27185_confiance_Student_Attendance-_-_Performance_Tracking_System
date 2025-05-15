@@ -134,6 +134,22 @@ This project addresses these challenges by providing an automated, secure, and a
 
 - Phase II: Business Process Modeling ✔️
 - A detailed business process was designed to show how attendance and grading flow through the institution. Swimlane diagrams and BPMN modeling were used to represent how students, instructors, and administrators interact through the system, highlighting decision points and data flow.
+### 1. Student Attendance Workflow
+- Instructor logs in
+- Selects course and date
+- Marks each student as Present/Absent
+- Data inserted into `Attendance` table
+- PL/SQL used: `InsertAttendance`, `MarkAttendance`
+
+### 2. Grade Submission Workflow
+- Instructor inputs exam scores
+- System saves score and grade into `Grades` table
+- Average calculated via `AvgExamScore`
+- PL/SQL used: `GetStudentGrade`, trigger audit logs
+
+### 3. Diagrams
+- DFD and Activity Diagrams attached in `/diagrams` folder
+
 
 - Phase III: Logical Design ✔️
 - Entity-Relationship Diagrams (ERDs) were created to define all entities and their relationships. Primary keys, foreign keys, and normalization (up to 3NF) were applied to remove redundancy. Data types and constraints were applied as per business rules.
