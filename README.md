@@ -141,7 +141,7 @@ This project addresses these challenges by providing an automated, secure, and a
 
 - Phase IV: Database Creation ✔️
 - Tables were physically created in Oracle using SQL DDL scripts. Sequences were defined for ID generation. Indexes and integrity constraints were enforced to ensure consistent and valid data entry.
-![CREATING TABLE ATTENDANCE](https://github.com/user-attachments/assets/8201cf9e-fc15-473b-976b-ceb44e59ff7d)
+![CREATING PDB](https://github.com/user-attachments/assets/de0677b5-19e6-47b9-812a-be2eb40f9d67)
 
 - Phase V: Data Insertion and Validation ✔️
 Sample records with realistic Rwandan student and instructor names were inserted. Test data respected all constraints. Data was validated for consistency, and foreign key relationships were properly tested using both attendance and grades records.
