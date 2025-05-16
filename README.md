@@ -136,22 +136,7 @@ This project addresses these challenges by providing an automated, secure, and a
 - A detailed business process was designed to show how attendance and grading flow through the institution. Swimlane diagrams and BPMN modeling were used to represent how students, instructors, and administrators interact through the system, highlighting decision points and data flow.
   ![DFD PL](https://github.com/user-attachments/assets/4a682232-a23b-41ac-b952-090762fb13d2)
 
-### 1. Student Attendance Workflow
-- Instructor logs in
-- Selects course and date
-- Marks each student as Present/Absent
-- Data inserted into `Attendance` table
-- PL/SQL used: `InsertAttendance`, `MarkAttendance`
-
-### 2. Grade Submission Workflow
-- Instructor inputs exam scores
-- System saves score and grade into `Grades` table
-- Average calculated via `AvgExamScore`
-- PL/SQL used: `GetStudentGrade`, trigger audit logs
-
-### 3. Diagrams
-- DFD and Activity Diagrams attached in `/diagrams` folder
-
+<pre> 📊 <b>Data Flow Diagram Legend</b> 1️⃣ Instructor → Mark Attendance → <b>Data:</b> Attendance Status → <i>Instructor submits presence/absence for selected students</i> 2️⃣ Mark Attendance → Attendance Table → <b>Data:</b> New Attendance Record → <i>System stores the marked attendance</i> 3️⃣ Student Table → Mark Attendance → <b>Data:</b> Student Info → <i>System fetches the list of students enrolled in the course</i> 4️⃣ Instructor → Submit Grades → <b>Data:</b> Exam Scores + Final Grade → <i>Instructor enters students' scores and final letter grades</i> 5️⃣ Submit Grades → Grades Table → <b>Data:</b> Grade Record → <i>System saves submitted grades into the database</i> 6️⃣ Student → View Grades → <b>Data:</b> Grade Request → <i>Student requests to check their course performance</i> 7️⃣ View Grades → Grades Table → <b>Data:</b> Retrieve Grade Info → <i>System fetches student grades and displays them</i> </pre>
 
 - Phase III: Logical Design ✔️
 - Entity-Relationship Diagrams (ERDs) were created to define all entities and their relationships. Primary keys, foreign keys, and normalization (up to 3NF) were applied to remove redundancy. Data types and constraints were applied as per business rules.
