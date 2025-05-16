@@ -132,7 +132,7 @@ This project addresses these challenges by providing an automated, secure, and a
 - ## Phase I: Problem Definition ✔️
 - The system identifies a core issue in academic institutions: unreliable and inefficient tracking of student attendance and performance. It defines clear objectives for building a PL/SQL-based system that ensures automation, accuracy, and transparency in handling student academic data.
 
-- Phase II: Business Process Modeling ✔️
+- ## Phase II: Business Process Modeling ✔️
 - A detailed business process was designed to show how attendance and grading flow through the institution. Swimlane diagrams and BPMN modeling were used to represent how students, instructors, and administrators interact through the system, highlighting decision points and data flow.
   ![DFD PL](https://github.com/user-attachments/assets/4a682232-a23b-41ac-b952-090762fb13d2)
 
@@ -179,19 +179,19 @@ This project addresses these challenges by providing an automated, secure, and a
 📈 System fetches grades from the database and displays them to the student.
 
 
-- Phase III: Logical Design ✔️
+- ## Phase III: Logical Design ✔️
 - Entity-Relationship Diagrams (ERDs) were created to define all entities and their relationships. Primary keys, foreign keys, and normalization (up to 3NF) were applied to remove redundancy. Data types and constraints were applied as per business rules.
  ![ERD 1](https://github.com/user-attachments/assets/a756e812-8d81-47f8-beec-bb185f688e12)
 
-- Phase IV: Database Creation ✔️
+- ## Phase IV: Database Creation ✔️
 - Tables were physically created in Oracle using SQL DDL scripts. Sequences were defined for ID generation. Indexes and integrity constraints were enforced to ensure consistent and valid data entry.
 ![CREATING PDB](https://github.com/user-attachments/assets/de0677b5-19e6-47b9-812a-be2eb40f9d67)
 
-- Phase V: Data Insertion and Validation ✔️
+- ## Phase V: Data Insertion and Validation ✔️
 Sample records with realistic Rwandan student and instructor names were inserted. Test data respected all constraints. Data was validated for consistency, and foreign key relationships were properly tested using both attendance and grades records.
 ![INSERT INTO INSTRUCTORS](https://github.com/user-attachments/assets/279417d8-37c7-423f-bc45-fb54d69c0ace)
 
-- Phase VI: Procedures, Functions, Triggers, Packages ✔️
+- ## Phase VI: Procedures, Functions, Triggers, Packages ✔️
 Custom PL/SQL components were developed:
 Procedures: For automated data entry like attendance marking.
 Functions: For analytics like calculating a student’s average score.
@@ -200,10 +200,10 @@ Packages: To group logic in a modular way for better reuse.
 Triggers: To block attendance changes on weekdays or public holidays.
 All were tested with at least 5 valid inputs.
   
-- Phase VII: Programming & Auditing ✔️
+- ## Phase VII: Programming & Auditing ✔️
 - Security was improved using auditing triggers and logic. A dedicated Audit_Log table tracks user actions on sensitive tables. A separate Public_Holidays table is used by a trigger to prevent DML operations during holidays. This ensures regulatory and organizational compliance.
   
-- Phase VIII: Final Documentation & Presentation ✔️
+- ## Phase VIII: Final Documentation & Presentation ✔️
 - [tue_27185_confiance_plsql2.pptx](https://github.com/user-attachments/files/20105090/tue_27185_confiance_plsql2.pptx)
 
 ---
