@@ -134,6 +134,8 @@ This project addresses these challenges by providing an automated, secure, and a
 
 - Phase II: Business Process Modeling ✔️
 - A detailed business process was designed to show how attendance and grading flow through the institution. Swimlane diagrams and BPMN modeling were used to represent how students, instructors, and administrators interact through the system, highlighting decision points and data flow.
+  ![DFD PL](https://github.com/user-attachments/assets/4a682232-a23b-41ac-b952-090762fb13d2)
+
 ### 1. Student Attendance Workflow
 - Instructor logs in
 - Selects course and date
