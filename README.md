@@ -129,7 +129,7 @@ This project addresses these challenges by providing an automated, secure, and a
 
 ## 📅 Timeline
 
-- Phase I: Problem Definition ✔️
+- ## Phase I: Problem Definition ✔️
 - The system identifies a core issue in academic institutions: unreliable and inefficient tracking of student attendance and performance. It defines clear objectives for building a PL/SQL-based system that ensures automation, accuracy, and transparency in handling student academic data.
 
 - Phase II: Business Process Modeling ✔️
